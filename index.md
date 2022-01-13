@@ -21,4 +21,4 @@ Hello World!
 ---
 [title](https://www.example.com)
 
-![alt text](r_image.jgp)
+![alt text](r_image.jpg)
