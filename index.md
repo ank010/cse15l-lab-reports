@@ -17,7 +17,7 @@ Hello World!
 - Second
 - Third
 
-'code'
+`code`
 ---
 [title](https://www.example.com)
 
