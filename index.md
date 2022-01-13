@@ -23,3 +23,5 @@ Hello World!
 [title](https://www.example.com)
 
 ![alt text](r_image.jpg)
+
+[Lab Report 1](https://ank010.github.io/cse15l-lab-reports/Lab-Report-1.html)
