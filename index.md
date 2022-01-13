@@ -20,4 +20,4 @@ Hello World!
 ---
 [title](https://www.example.com)
 
-![alt text](image.jpg)
+![alt text](academichistoryreviewpdf.pdf)
