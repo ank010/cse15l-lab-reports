@@ -4,6 +4,7 @@ Hello World!
 ### Heading 3
 
 *Italic*
+
 **bold**
 
 >blockquote
@@ -20,4 +21,4 @@ Hello World!
 ---
 [title](https://www.example.com)
 
-![alt text](academichistoryreviewpdf.pdf)
+![alt text](r_image.jgp)
