@@ -1,27 +1,7 @@
-Hello World!
-# Heading 1
-## Heading 2
-### Heading 3
+Arjun Kumar's Lab Reports
 
-*Italic*
+## CSE 15L Winter 2022 UCSD
 
 
-
->blockquote
-
-1. List 1
-2. List 2
-3. 
-
-- First
-- Second
-- Third
-- Fourth
-
-`code`
----
-[title](https://www.example.com)
-
-![alt text](r_image.jpg)
-
+### Labs
 [Lab Report 1](https://ank010.github.io/cse15l-lab-reports/Lab-Report-1.html)
