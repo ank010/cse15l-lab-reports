@@ -40,4 +40,29 @@ Now, create a file on your computer, give a default constructor + any print stat
 Next, open the terminal (make sure the directory is correct) and enter the following:
 ![screenshot](scpPic1.jpg)
 
+You will have to enter your password again, but once you do, login to ieng6, use the command ls and the file should show up in the list. Now you can run it on the ieng6 server as well. 
 
+### Setting an SSH Key
+Entering your password, especially when it is a complicated one, everytime you log in to ieng6, make changes to a file or upload a new file is very time consuming. Making an SSH key can rapidly speed up that process. 
+
+Here's how you can generate a public - private key pair to speed it up:
+![screenshot](keygen.jpg)
+It will prompt you to to enter a passphrase twice before rendering a ssh key art and saving the file. 
+
+For Windows users, need to follow extra steps, found [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) to finish the process. Otherwise you have to enter the passphrase everytime you log in.
+
+Now we have 2 files - the id_rsa and the id_rsa.pub which is the public key. Just add the public key file onto the ieng6 server and you can then bypass the password steps when logging in or making changes:
+![screenshot](uploadkey.jpg)
+
+## Optimizing Remote Running
+Now while we have already sped up the process of copying files, however there are a few things we can do to optimize the process. 
+First thing is: using the up arrow to recall prior command lines
+The terminal stores all of your command line arguments until you trash it, so hitting the up arrow once or twice and recalling a command can save you a lot of time, especially if you have to type 'cs15lwi22akg@ieng6.ucsd.edu' everytime. 
+
+Secondly, and more importantly, we can add multiple commands to one line so we don't have to wait in between typing one command after another:
+![screenshot](multicommand1.jpg)
+or more advanced:
+![screenshot](multicommand2.jpg)
+and you can compile and run in one line:
+![screenshot](multicommand3.jpg)
+These tricks will allow for running programs faster with fewer keystrokes and less hastle. 
