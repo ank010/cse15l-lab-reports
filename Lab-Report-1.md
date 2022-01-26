@@ -61,8 +61,13 @@ The terminal stores all of your command line arguments until you trash it, so hi
 
 Secondly, and more importantly, we can add multiple commands to one line so we don't have to wait in between typing one command after another:
 ![screenshot](multicommand1.jpg)
+
 or more advanced:
+
 ![screenshot](multicommand2.jpg)
+
 and you can compile and run in one line:
+
 ![screenshot](multicommand3.jpg)
-These tricks will allow for running programs faster with fewer keystrokes and less hastle. 
+
+These tricks will allow for running programs faster with fewer keystrokes and less hastle. To show this, let's see how many keystrokes it takes me to upload and rerun the file 'Where Am I' after making changes to it. Since I've already typed in the commands to upload and login to the remote server, it takes 4 keystrokes (up arrow plus an enter) to run the scp, another 4 to run the ssh, and finally another 4 to run javac and java. With a total of 12 keystrokes, I've uploaded the edited file, relogged in to the remote server, compiled and ran the file. If I were to type in each command line every time, even assuming I combined scp, ssh, javac and java commands into one line, it would be well over 12 keystrokes. By using the tips above, we need to enter each command only once into the terminal and simply use the arrow keys to reaccess it every time afterwards. This not only saves time, but reduces the chance of typos and having to retype lines unneccessarily.  
