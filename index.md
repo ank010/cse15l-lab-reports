@@ -5,3 +5,5 @@ Arjun Kumar's Lab Reports
 
 ### Labs
 [Lab Report 1](https://ank010.github.io/cse15l-lab-reports/Lab-Report-1.html)
+
+[Lab Report 2](https://ank010.github.io/cse15l-lab-reports/Lab2-Report.html)
