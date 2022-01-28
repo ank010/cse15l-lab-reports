@@ -42,3 +42,12 @@ The code changes:
 Link to the file that caused the error: [Bracket-file](https://ank010.github.io/cse15l-lab-reports/bracket-file.html)
 
 Symptom of the bug:
+```
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 15
+```
+
+In order to correctly identify which text to print out, the program looks for the first ( and ) after the ] on a certain line, based on the proper syntax for putting a link in the markdown file. However, we never consider if there is, for whatever reason, a [] but no set of () after it anywhere in the file. This is the bug that causes the open and close parenthesis variables to -1 since they aren't there, which in turn causes the error above since we can't go from index 0 to index -1 in a file because the starting index is 0. The failure inducing input is a markdown file with a set of [ ] but no set of ( ) following it. 
+
+We fixed the problem by checking, before any of our other new checks, if there is a set of ( ) after the set of [ ] in the file, otherwise everything else we are trying to do, we are unable to since there is no ( ) if our check returns false. 
+
+That is the end of lab report 2!
