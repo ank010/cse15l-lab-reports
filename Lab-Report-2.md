@@ -18,7 +18,7 @@ We corrected this error, as seen in the screenshot, by checking that there is no
 
 ### Bug #2
 The code changes:
-![screenshot](CheckingOLinks.jpg)
+![screenshot](bracketCheck.jpg)
 
 Link to the file that caused the error: [Empty-file](https://ank010.github.io/cse15l-lab-reports/empty-file.html)
 
