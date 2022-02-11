@@ -1,4 +1,4 @@
-## Welcome to Lab 2
+## Welcome to Lab 3
 
 ### [Home](https://ank010.github.io/cse15l-lab-reports/index.html)
 
