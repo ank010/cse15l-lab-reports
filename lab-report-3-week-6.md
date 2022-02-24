@@ -33,11 +33,18 @@ Now, we can make this process faster by combining the lines to copy the files ov
 
 ![screenshot](comboRunTest1.jpg)
 
-Then after we have been logged in:
+Then after the files are copied and we are entered into ieng6, the test will run:
 
 ![screenshot](comboRunTest2.jpg)
 
-We can ```cd``` into markdown-parse and use the two command lines from above to compile and run the files (I used a makefile created in week 6 lab that has the two command lines to make the command line look cleaner)
+And all of them passed successfully. I had to use a workaround command to ensure that compiling and running MarkdownParseTest.java worked properly when using a one line command. They are modified versions of the command lines written above. 
+
+```
+/software/CSE/oracle-java-se-14/jdk-14.0.2/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java
+
+/software/CSE/oracle-java-se-14/jdk-14.0.2/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+
+```
 
 Through combining the command lines, we can copy to a remote server, enter the server, and run the files all in just a few keystrokes. 
 
